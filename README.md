@@ -197,21 +197,3 @@ Future improvements:
 * Consistency-aware training
 * Self-supervised pretraining on rural environments
 * Larger crop-based augmentation for rare objects
-
----
-
-## 📂 Repository Structure (Suggested)
-
-```
-root/
-│ README.md
-│ train.py
-│ model.py
-│ utils.py
-│
-├─ img/               
-├─ dataset/
-├─ augmented/
-├─ kfold_splits/
-└─ results/
-```
