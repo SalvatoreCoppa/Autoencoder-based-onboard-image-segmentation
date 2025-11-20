@@ -33,7 +33,7 @@ Each pixel belongs to one of the following classes:
 | 7  | High Vegetation                |
 | 8  | Sky                            |
 
-`![Dataset Examples](img/dataset_samples.png)`
+![Dataset Examples](./img/dataset_samples.png)
 
 ---
 
