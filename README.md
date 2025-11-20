@@ -97,7 +97,7 @@ We implemented **DeepLabV3+** with a **MobileNetV3-Large** encoder:
 * Decoder with skip connections for spatial detail recovery
 
 
-![MobileNetV3 Block](./img/mobilenetv3.png
+![MobileNetV3 Block](./img/mobilenetv3.png)
 ![ASPP Diagram](./img/aspp.png)
 ![Full Architecture](./img/full_architecture.png)
 
