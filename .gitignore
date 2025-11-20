@@ -1,0 +1,8 @@
+*.zip
+*.pt
+*.pth
+*.tar
+*.tar.gz
+dataset/
+augmented_*/
+kfold_splits/
