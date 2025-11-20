@@ -60,7 +60,7 @@ To mitigate severe imbalance (e.g., Puddle, Obstacle), we designed tailored augm
 * Custom **greedy split** ensures class distribution consistency
 * **5-Fold Cross-Validation** on the TrainVal set
 
-`![TrainVal vs Test Split](img/split_comparison.png)`
+![TrainVal vs Test Split](./img/split_comparison.png)
 
 ---
 
@@ -97,9 +97,9 @@ We implemented **DeepLabV3+** with a **MobileNetV3-Large** encoder:
 * Decoder with skip connections for spatial detail recovery
 
 
-`![MobileNetV3 Block](img/mobilenetv3.png)`
-`![ASPP Diagram](img/aspp.png)`
-`![Full Architecture](img/full_architecture.png)`
+![MobileNetV3 Block](./img/mobilenetv3.png
+![ASPP Diagram](./img/aspp.png)
+![Full Architecture](./img/full_architecture.png)
 
 ---
 
@@ -145,11 +145,11 @@ Best results (test set):
 * **Dice8 model** → mIoU = **0.4650**
 * **Focal-Dice8 model** → mIoU = **0.4666**
 
-📌 *Insert per-fold results:*
-`![mIoU Folds](img/miou_folds.png)`
 
-📌 *Insert class-wise IoU comparison:*
-`![Per-Class IoU](img/per_class_iou.png)`
+![mIoU Folds](./img/miou_folds.png)
+
+
+![Per-Class IoU](img/per_class_iou.png)
 
 ---
 
@@ -157,10 +157,9 @@ Best results (test set):
 
 The model accurately segments major terrain classes and handles illumination changes well.
 
-📌 *Insert qualitative prediction examples:*
-`![Qualitative Results](img/qualitative_results1.png)`
+![Qualitative Results](./img/qualitative_results1.png)
 
-`![Qualitative Results2](img/qualitative_results2.png)`
+![Qualitative Results2](./img/qualitative_results2.png)
 
 ---
 
@@ -168,8 +167,7 @@ The model accurately segments major terrain classes and handles illumination cha
 
 Dataset contains inconsistencies for visually similar scenes (e.g., same trail labeled differently as Smooth vs Rough Trail), affecting quantitative metrics.
 
-📌 *Insert example:*
-`![Annotation Inconsistency](img/annotation_noise.png)`
+![Annotation Inconsistency](./img/annotation_noise.png)
 
 ---
 
@@ -211,19 +209,9 @@ root/
 │ model.py
 │ utils.py
 │
-├─ images/               # Put all README images here
+├─ img/               
 ├─ dataset/
 ├─ augmented/
 ├─ kfold_splits/
 └─ results/
 ```
-
----
-
-If you want, I can also generate:
-
-* A **short README** version
-* A **GitHub-flavored version with badges**
-* A **project logo**
-* A **setup section with installation + usage + inference commands**
-* A **beautiful banner image** for GitHub
