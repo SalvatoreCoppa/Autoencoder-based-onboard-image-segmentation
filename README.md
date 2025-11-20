@@ -47,7 +47,7 @@ A detailed analysis was performed to evaluate:
 * **Train/Val/Test split quality**
 * **K-Fold distribution consistency**
 
-`![Class Distribution & Presence Frequency](img/class_distribution.png)`
+![Class Distribution & Presence Frequency](./img/class_distribution.png)
 
 To mitigate severe imbalance (e.g., Puddle, Obstacle), we designed tailored augmentation and used a Dice-based loss.
 
